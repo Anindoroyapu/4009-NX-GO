@@ -3,8 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 import LayoutProvider from "@/context/LayoutProvider";
-import Footer from "@/modules/shared/footer/Footer";
-import Header from "@/modules/shared/header/Header";
+import Footer from "@/modules/shared/footer/FooterPage";
+import Header from "@/modules/shared/header/HeaderPage";
 import ComposeProviders from "@/src/context/ComposeProviders";
 import TemplateProvider from "@/src/context/template/TemplateProvider";
 import { InitProvider } from "@/src/context/InitProvider";
