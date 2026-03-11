@@ -5,7 +5,6 @@ import React, { FC } from "react";
 
 import { cn } from "@/src/utils/cn";
 
-import { NAVMENU } from "@/modules/shared/header/constants";
 import Link from "next/link";
 
 const SidebarSection: FC<{
@@ -43,7 +42,7 @@ const SidebarSection: FC<{
           </button>
           <nav className=" pl-[25px] items-center ">
             <ul className="flex flex-col gap-7.5">
-              {NAVMENU.map((nav) => (
+              {/* {NAVMENU.map((nav) => (
                 <li key={nav.name} onClick={() => setIsOpen(!isOpen)}>
                   <Link
                     href={nav.link}
@@ -52,7 +51,7 @@ const SidebarSection: FC<{
                     {nav.name}
                   </Link>
                 </li>
-              ))}
+              ))} */}
             </ul>
           </nav>
         </div>
