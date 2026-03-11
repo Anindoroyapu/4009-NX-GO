@@ -29,8 +29,8 @@ const shurjo = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "খুলনা টিউশন সার্ভিস",
-  description: "A platform to connect tutors and students in Khulna.",
+  title: "GO",
+  description: "A template platform.",
 };
 
 export default function RootLayout({
